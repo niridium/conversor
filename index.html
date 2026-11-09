@@ -8,10 +8,17 @@
 </head>
 <body>
     <div class="container">
-        <h1>Conversor de Celsius a Fahrenheit</h1>
+        <h1>Conversor de Temperatura</h1>
         <div class="form-group">
-            <label for="celsius">Temperatura en Celsius (°C):</label>
-            <input type="number" id="celsius" placeholder="Introduce la temperatura" step="any">
+            <label for="direction">Dirección:</label>
+            <select id="direction">
+                <option value="c2f">Celsius → Fahrenheit</option>
+                <option value="f2c">Fahrenheit → Celsius</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="input" id="inputLabel">Temperatura en Celsius (°C):</label>
+            <input type="number" id="input" placeholder="Introduce la temperatura" step="any">
         </div>
         <button id="convertBtn">Convertir</button>
         <div id="result" class="result"></div>

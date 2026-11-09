@@ -6,6 +6,13 @@ Convertidor web sencillo de temperatura: de grados Celsius (°C) a Fahrenheit (�
 
 Disponible en **[niridium.github.io/conversor](https://niridium.github.io/conversor)**
 
+## Características
+
+- Conversión **Celsius → Fahrenheit**
+- Conversión **Fahrenheit → Celsius**
+- Selector para cambiar la dirección
+- Soporte para pulsar **Enter**
+
 ## Estructura
 
 ```
